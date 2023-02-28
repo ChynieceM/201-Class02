@@ -5,9 +5,11 @@ body {
     height: 30vh;
     width: 100%;
     border: bold;
-    background-image: linear-gradient(rgba(233, 228, 228, 0.6),rgba(9, 71, 109, 0.6));
+    background-image: linear-gradient(rgba(233, 228, 228, 0.6),rgba(103, 207, 241, 0.6));
     background-size: cover;
     background-position: center;
+    box-shadow: 0 0 20px 0 black;
+    
 }
 nav{
     display: flex;
@@ -17,16 +19,17 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
     font-size: 25px;
+    
 
 }
 nav ul li{
-    list-style-type: none;
+    list-style: none;
     display: inline-block;
     padding: 10px 20px;
 
 }
 nav ul li a{
-    color: white;
+    color: rgb(15, 14, 14);
     text-decoration: none;
     font-weight: bold;
 
@@ -63,6 +66,34 @@ button:hover{
 width: 200px;
 }
 .lastResult {
-color: black;
+background-color: rgb(215, 241, 142);
 padding: 3px;
+border-radius: 10px;
+padding-left: 30%;
+}
+.guessSubmit{
+    border: bold;
+    background: rgb(253, 141, 141);
+    padding: 4px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    transition: .4s;
+}
+.resetButton{
+    border: bold;
+    background: rgb(253, 141, 141);
+    padding: 4px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    transition: .4s;
+}
+.jobs{
+    list-style-image: linear-gradient(to left bottom, black, pink );
+    
+}
+.grade{
+    list-style-image: linear-gradient(to right bottom, black, rgb(255, 250, 192) );
+    
 }

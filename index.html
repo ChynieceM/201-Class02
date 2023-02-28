@@ -43,7 +43,7 @@
         <h2 id="edu">Education</h2>
         <p id="school"> <i>For the purpose of this project, I'm including the academic and dance institutions I've
                 attended.</i>
-        <ul>
+        <ul class="grade">
             <li>The Code Collective, Memphis, TN</li>
             <li>COOP Careers, NY, NY</li>
             <li>The American College of Greece, Athens, Greece</li>
@@ -60,7 +60,7 @@
         <p id="work"> <i>For the most part, my work history consists of fashion and retail. But after college, I got my
                 feet wet in social media management and later cut my teeth in marketing/advertising. The list below
                 names the places I've worked.</i>
-        <ul>
+        <ul class="jobs">
             <li>COOP Careers</li>
             <li>Capacity Interactive</li>
             <li>Plural</li>
@@ -71,29 +71,7 @@
         </ul>
         </p>
     </article>
-<!--put reset func in this article -->
-    <article>
-        <div id="butt">
-        <h3 id="game">My Number Guessing Game</h3>
-        <p>I am thinking of a number between <strong>1 and 50</strong>. You have <strong>6 guesses</strong> to guess
-            the number I'm thinking of. You'll get an alert if you guess too low or too high. Play Again for a new number.</p>
-        </div>
-<div class="form">
-    <label for="guessField"> Enter your guess: </label>
-    <input type="number" min="1" max="50" required id="guessField" class="guessField">
-    <input type="submit" value="Submit guess" class="guessSubmit">
 
-</div>
-
-<div class="resultParas">
-    <p class="guesses"></p>
-    <p class="lastResult"></p>
-    <p class="lowHi"></p>
-</div>
-    </article>
-   
-    <!--<button id="quiz2" onClick="resetGame()">Play Again</button>-->
-    <article>
         <!---Create a “Top Ten” at the bottom of your HTML page as an ordered list in HTML. Some ideas that you can include could be top ten movies, top ten favorite places, or top ten places to visit. You may choose to do whatever top ten list that you wish.--->
         <h3 id="music">My Top TV Shows</h3>
         <p>
@@ -113,6 +91,29 @@
 
 
     </article>
+    <!--put reset func in this article -->
+    <article>
+        <div>
+        <h3 id="game">My Number Guessing Game</h3>
+        <p>I am thinking of a number between <strong>1 and 50</strong>. You have <strong>6 guesses</strong> to guess
+            the number I'm thinking of. You'll get an alert if you guess too low or too high. Play Again for a new number.</p>
+        </div>
+<div class="form" id="butt">
+    <label for="guessField"> Enter your guess: </label>
+    <input type="number" min="1" max="50" required id="guessField" class="guessField">
+    <input type="submit" value="Submit guess" class="guessSubmit">
+
+</div>
+
+<div class="resultParas">
+    <p class="guesses"></p>
+    <p class="lastResult"></p>
+    <p class="lowHi"></p>
+</div>
+    </article>
+   
+    <!--<button id="quiz2" onClick="resetGame()">Play Again</button>-->
+    <article>
 
 
     <script src="script.js"></script>

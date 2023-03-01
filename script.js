@@ -169,7 +169,7 @@ function quizGame2(){
 
 //let yes = prompt("Can you guess my 4 favorite colors?");
 let answers = ["green", "purple", "black", "pink"];
-let ua = [];
+let ua = [""];
 for(let i = 0; i < 4; i++) {
     ua.push(prompt("Can you guess my 4 favorite colors?"));
 
